@@ -1,10 +1,10 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Footer from './components/Footer'
+import Login from './pages/Login'
 
 function App() {
   return (
-    <Footer/>
+    <Login></Login>
   )
 }
 

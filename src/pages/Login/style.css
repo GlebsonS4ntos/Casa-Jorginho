@@ -1,0 +1,23 @@
+main{
+    min-height: 90vh;
+    height: auto;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.logoCasaJorginho{
+    height: 300px;
+    width: 200px;
+    z-index: 1;
+    margin-bottom: -60px;
+}
+
+@media screen and (max-width: 475px) {
+    .logoCasaJorginho{
+        width: 150px;
+        height: 200px;
+    }
+}
